@@ -17,8 +17,7 @@ function App() {
       <Product title="Product 2" price={20} description="Second product" />
     </div>
   );
-}
-export default App;
+}export default App;
 
 
 In this code, we are passing the title, price, and description as props to the <Product /> component for each product item. The first product item will display the information specified in the props for title, price, and description, while the second product item will display the information specified for the second set of props.
